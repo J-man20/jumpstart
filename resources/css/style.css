@@ -40,9 +40,37 @@ font-family: 'Monoton', cursive;*/
 
 /* Navagation */
 .navbar-nav{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
   text-decoration: none;
 }
 
-.navbar-nav .active a{
-  color:#399bd1 !important;
+.navbar-default .navbar-nav > .active > a{
+  color:#399bd1;
+}
+
+/* Jumbotron */
+.jumbotron-bike{
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+.jumbotron-bike h1{
+  font-family: 'Monoton', cursive;
+  font-size: 7.11rem;
+  color:white;
+  text-align: center;
+  padding-top: 11.85rem;
+}
+
+.jumbotron p{
+text-shadow: -1px -1px 0 #000,
+              1px -1px 0 #000,
+              -1px 1px 0 #000,
+              1px  1px 0 #000;
+color:white;
+max-width:51.3rem;
+text-align: center;
+padding-bottom: 2.8rem;
+margin: 0 auto;
+
 }
