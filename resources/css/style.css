@@ -44,5 +44,5 @@ font-family: 'Monoton', cursive;*/
 }
 
 .navbar-nav .active a{
-  color:#399bd1;
+  color:#399bd1 !important;
 }
