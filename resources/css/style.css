@@ -39,6 +39,10 @@ font-family: 'Monoton', cursive;*/
 }
 
 /* Navagation */
-.nav ul a{
-  display: inline;
+.navbar-nav{
+  text-decoration: none;
+}
+
+.navbar-nav .active a{
+  color:#399bd1;
 }
