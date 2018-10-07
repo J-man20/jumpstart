@@ -99,3 +99,23 @@ margin: 0 auto;
 .btn-primary:active{
   box-shadow: 0,0,0,rgba(0,0,0,0.5);
 }
+
+/*Featured Project*/
+.feature{
+  margin:0 auto;
+}
+
+#feature-header{
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.blue{
+  color:#399bd1;
+}
+
+#product-cat{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
