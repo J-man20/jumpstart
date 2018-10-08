@@ -1,4 +1,4 @@
-$(document).ready function(){
+$(document).ready(function(){
   $('.carousel').slick({
     slidesToShow:1,
     autoplay:true,
@@ -6,6 +6,6 @@ $(document).ready function(){
     arrows:false,
     draggable:false,
     pauseOnHover:false,
-    pauseOnFocus:false,
+    pauseOnFocus:false
   });
-};
+});
