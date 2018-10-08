@@ -8,4 +8,4 @@ $(document).ready function(){
     pauseOnHover:false,
     pauseOnFocus:false,
   });
-});
+};
