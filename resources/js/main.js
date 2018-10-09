@@ -10,3 +10,19 @@ $(document).ready(function(){
     pauseOnFocus:false
   });
 });
+
+var hideNavBar = 0;
+
+$(window).scroll(function(){
+var scrollTop = $(this).scrollTop();
+
+if (scrollTop - hideNavBar > 50){
+  var navBarHeight = $('.navbar').css('height');
+
+}
+
+$(navBarHeight).animate({top: '-' + navBarHeight},150);
+
+$(hideNavBar) = $(scrollTop);
+
+});
