@@ -9,7 +9,7 @@ $(document).ready(function(){
     pauseOnHover:false,
     pauseOnFocus:false
   });
-});
+
 
 var hideNavBar = 0;
 
@@ -24,5 +24,7 @@ if (scrollTop - hideNavBar > 50){
 $(navBarHeight).animate({top: '-' + navBarHeight},150);
 
 $(hideNavBar) = $(scrollTop);
+
+});
 
 });
